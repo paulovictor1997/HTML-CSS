@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Lexend Deca',sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.p {
+  margin-left: 20px;
+}
+
+.h1 {
+  padding-top: 25px;
+  color: white;
+}
+
+.button1 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: orange;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+}
+
+.button2 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: #006970;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+}
+
+.button2:hover {
+  background-color: #006970;
+  color: white;
+}
+
+.button3 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: #00403F;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+}
+
+.button3:hover {
+  background-color: #00403F;
+  color: white;
+}
+
+#fundo-laranja {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+}
+
+#fundo-verde {
+  background-color: #006970;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+}
+
+#fundo-escuro {
+  background-color: #00403F;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=estilo.css.map */
