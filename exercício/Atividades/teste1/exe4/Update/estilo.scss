@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca',sans-serif;
+}
+
+$cor1 :white; 
+$cor2 :orange;
+$cor3: hsl(184, 100%, 22%);
+$cor4: #00403F;
+
+body{
+    background-color: $cor1;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange{
+    background-color: $cor2;
+    color: $cor1;
+    border-radius: 10px;
+    padding: 10px;
+    height: 430px;
+    width: 500px;
+}
+
+.green{
+    background-color: $cor3;
+    color: $cor1;
+    border-radius: 10px;
+    padding: 10px;
+    height: 430px;
+    width: 500px;
+}
+
+.dark_green{
+    background-color: $cor4;
+    color: $cor1;
+    border-radius: 10px;
+    padding: 10px;
+    height: 430px;
+    width: 500px;
+}
+
+.title{
+    padding-top: 25px;
+    color: $cor1;
+}
+
+.description{
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.button1{
+    margin-left: 20px;
+    text-align: center;
+    background-color: $cor1;
+    color: $cor2;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: $cor2;
+    color: $cor1;
+}
+
+.button2{
+    margin-left: 20px;
+    text-align: center;
+    background-color: $cor1;
+    color: $cor3;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: $cor3;
+    color: $cor1;
+}
+
+.button3{
+    margin-left: 20px;
+    text-align: center;
+    background-color: $cor1;
+    color: $cor4;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.button3:hover{
+    background-color: $cor4;
+    color: $cor1;
+}
+
+
+@media screen and(max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .orange{
+        background-color: $cor2;
+        color: $cor1;
+        border-radius: 10px;
+        padding: 10px;
+        height: 400px;
+        width: 350px;
+    }
+  
+    .green{
+        background-color: $cor3;
+        color: $cor1;
+        border-radius: 10px;
+        padding: 10px;
+        height: 400px;
+        width: 350px;
+    }
+
+    .dark_green{
+        background-color: $cor4;
+        color: $cor1;
+        border-radius: 10px;
+        padding: 10px;
+        height: 400px;
+        width: 350px;
+    }
+}

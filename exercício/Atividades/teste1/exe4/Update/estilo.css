@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lexend Deca',sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+  width: 500px;
+}
+
+.green {
+  background-color: #006970;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+  width: 500px;
+}
+
+.dark_green {
+  background-color: #00403F;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 430px;
+  width: 500px;
+}
+
+.title {
+  padding-top: 25px;
+  color: white;
+}
+
+.description {
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.button1 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: orange;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+}
+
+.button2 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: #006970;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #006970;
+  color: white;
+}
+
+.button3 {
+  margin-left: 20px;
+  text-align: center;
+  background-color: white;
+  color: #00403F;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: #00403F;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .orange {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 350px;
+  }
+  .green {
+    background-color: #006970;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 350px;
+  }
+  .dark_green {
+    background-color: #00403F;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

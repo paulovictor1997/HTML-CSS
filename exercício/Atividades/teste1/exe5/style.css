@@ -1,0 +1,14 @@
+#fundo-laranja{
+    background-color: orange;
+    color: white;
+}
+
+#fundo-verde{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+#fundo-escuro{
+    background-color: #00403F;
+    color: white;
+}

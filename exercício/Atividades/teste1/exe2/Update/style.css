@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 1em;
+}
+
+body{
+    background-color: #567ba8;
+}
+
+.principal{
+    width: 1200px;
+    padding: 0px 20px 0px 20px;
+    border: 0px solid white;
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item5 item3';
+}
+
+.item1{
+    width:600px;
+    height:350px;
+    background-color: hsl(263, 55%, 52%);;
+    padding: 10px;
+    border-radius: 20px;
+    grid-area:'item1';
+    grid-row: item1;
+}
+
+.item2{
+    width: 550px;
+    height: 300px;
+    padding: 10px;
+    background-color: hsl(219,29%,14%);
+    border-radius: 20px;
+    grid-area:'item2';
+    grid-row: item2;
+}
+
+.item3{
+    width:300px;
+    height:700px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    grid-area:'item3';
+    grid-row: item3;
+}
+
+.item4{
+    width:600px;
+    height: 250px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    grid-area:'item4' ;
+ 
+}
+
+.item5{
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    background-color: hsl(219,29%,14%);
+    border-radius: 20px;
+    grid-area:'item5';   
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.description1{
+    color: white;
+    margin-top: 20px;
+}
+
+.description2{
+    margin-top: 20px;
+}
+
+
+img{
+    border-radius: 50px;
+}
+
+@media(max-width:800px){
+    .principal{
+        grid-template-areas: 
+        'item1'
+        'item2'
+        'item3'
+        'item4'
+        'item5';
+    }
+
+    .item1{
+        max-width:350px;
+        height: 450px;
+    }
+
+    .item2{
+        max-width:350px;
+        height: 300px;
+    }
+
+    .item3{
+        max-width:350px;
+        height:600px;
+    }
+
+    .item4{
+        max-width:350px;
+    }
+
+    .item5{
+        max-width:350px;
+        height: 450px;
+    }
+
+   
+}

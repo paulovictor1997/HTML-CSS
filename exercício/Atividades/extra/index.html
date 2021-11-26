@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>Teste de imagens dinâmicas</p>
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width : 1000px)"srcset="imagens/paisagem-m.png" type="image/png">   
+        <img src="imagens/paisagem-g.png" alt="Foto Flexível">
+    </picture>
+    <script>
+        var nome = window.prompt('Qual é o seu nome ?')
+        window.alert('É um prazer,'  + nome)  //Concatenação
+    </script>
+</body>
+</html>

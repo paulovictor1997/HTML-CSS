@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP';
+    text-align: justify;
+}
+
+
+
+$cor1: rgb(41, 39, 39);
+
+
+#titulo{
+    margin-left: 7%;
+    color: $cor1; 
+}
+
+#subtitulo{
+    color: $cor1;
+    margin-left: 10%;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color:lightblue;
+    font-size: 1em;
+    color: $cor1;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    font-size: 1em;
+    border-radius: 5px;
+    color: $cor1;
+}
+
+.grupo::before, .grupo::after{
+    display: table;
+}
+
+.grupo::after{
+    clear: both;
+}
+
+.campo{
+    margin-bottom: 1em;
+
+   
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+    color: $cor1;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    display: block;
+    padding: 0.2em;
+    border: 1px solid $cor1;
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.2) ;
+}
+
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+
+.campo select option{
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+
+.campo input:focus, .campo select:focus,.campo textarea:focus{
+    background-color:#92929c ;
+}
+
+.button{
+    font-size: 1.2em;
+    background-color: $cor1;
+    color: white;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    position: absolute;
+    
+}
+
+.button:hover{
+    background-color:lightgray ;
+}
+
+.button,select{
+    cursor: pointer;
+}
