@@ -26,11 +26,17 @@
             background-color: gray;
             color: white;
         }
+         /*Efeito zebrado* (odd - ímpar)/
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 <body>
-    <!--Anatomia para tabelas grandes 
+     <!--Anatomia para tabelas grandes 
         TABLE
+            CAPTION
             THEAD
                 TR,TD,TH
             TBODY
@@ -39,10 +45,11 @@
                 TR,TD,TH
     -->
     <table>
+        <caption>Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -65,11 +72,10 @@
 
         <tfoot>
             <tr>
-                <th>Habitantes</th>
+                <th scope="row">Habitantes</th>
                 <td>0000</td>
             </tr>
         </tfoot>
     </table>
-
 </body>
 </html>
