@@ -10,6 +10,8 @@
 
          table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
         
         td,th{
@@ -26,7 +28,13 @@
             background-color: gray;
             color: white;
         }
-         /*Efeito zebrado* (odd - ímpar)/
+
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+         /*Efeito zebrado* (odd - ímpar)*/
         tbody>tr:nth-child(2n){
             background-color: lightgray;
         }
@@ -43,6 +51,15 @@
                 TR,TD,TH
             TFOOT 
                 TR,TD,TH
+
+
+          thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        Efeito para fixar um cabeçalho, em uma tabela
     -->
     <table>
         <caption>Unidades Federativas</caption>
