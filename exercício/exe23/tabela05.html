@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{font-family: Arial, Helvetica, sans-serif;}
+
+          table{
+            width: 500px;
+            border-collapse: collapse;
+          }
+
+          caption{
+              font-size: 1.3rem;
+              font-weight: bold;
+              padding: 8px;
+          }
+
+          th,td{
+              border: 1px  solid black;
+              padding: 8px;
+          }
+
+          .nome{
+              background-color: lightgray;
+          }
+
+          .grupo{
+            background-color: yellow;
+          }
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="nome">
+            <col class="grupo" span="3">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Desenvolvedor</td>
+        </tr>
+
+        <tr>
+            <td>Victor</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Analista</td>
+        </tr>
+    </table>
+    <!--
+        deixando responsivo
+        #container{
+            width:50px; (opcional, pode-se colocar o tamanho que quiser).
+            overflow-x:auto;
+        }
+    -->
+
+    </div>
+</body>
+</html>
+
+
