@@ -1,0 +1,108 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+//Primary Colors 
+$Paleblue: hsl(225, 100%, 94%);
+$Brightblue: hsl(245, 75%, 52%);
+// Neutral Colors 
+$Verypaleblue: hsl(225, 100%, 98%);
+$Desaturatedblue: hsl(224, 23%, 55%);
+$Darkblue: hsl(223, 47%, 23%);
+
+body{
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    img{
+        border-radius: 20px 20px 0px 0px;
+    }   
+}
+
+.area{
+    width: 450px;
+    height: 400px;
+    background-color: $Verypaleblue;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.description{
+    text-align:center;
+    color: $Desaturatedblue;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
+.plan{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+
+    .price{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    a{
+        margin-left: 20%;
+        padding-top: 10px;
+
+        &:hover{
+            color: $Brightblue;
+        }
+    }
+}
+
+.buttonArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+    button{
+        width: 400px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: $Darkblue;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $Brightblue;
+        }
+    }
+
+    a{
+        padding-top: 10px;
+        color: $Desaturatedblue;
+        text-decoration: none;
+    }
+}
