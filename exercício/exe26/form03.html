@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>TIPOS DE FORMULÁRIO</h1>
+    <form>
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="inome" id="inome" required 
+            placeholder="NOME COMPLETO">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia"
+            placeholder="Informe a nota" step="0.1" required>
+        </p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes"> 
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
