@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="etilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
+
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
         <h1>SITE</h1>
     </header>
-
-    <nav>
+    <span class="material-icons" id="burger" onclick="clickMenu()">menu</span>
+    <nav id="menu">
         <ul>
             <li><a href="#">Opção1</a></li>
             <li><a href="#">Opção2</a></li>
@@ -30,4 +33,21 @@
         </article>
     </main>
 </body>
+<script>
+    function clickMenu(){
+       if( menu.style.display=='block'){
+            menu.style.display == 'none';
+       } else{
+            menu.style.display == 'block';
+       }
+    }
+
+    function tamanho(){
+        if(window.innerWidth >=768){
+            menu.style.display == 'block';
+        }else{
+            menu.style.display == 'none';
+        }
+    }
+</script>
 </html>
