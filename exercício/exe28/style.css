@@ -2,10 +2,53 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-weight: 400;
 }
 
 :root{
     --green:#49a09d;
     --light-purple:#5f2c82;
     --white:#ffff;
+}
+
+body,html{
+    background-color: var(--light-purple);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    background-color: var(--white);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
+section#login > #image{
+    background: #5f2c82 url(./img/pattern-image.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: block;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
 }
