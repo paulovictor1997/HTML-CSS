@@ -1,11 +1,11 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @font-face {
-  font-family: 'idroid';
+  font-family: "idroid";
   src: url("fontes/idroid.otf") format("opentype");
 }
-
 * {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 a.external::after {
-  content: '\00A0\1F517';
+  content: " 🔗";
 }
 
 main {
@@ -23,8 +23,7 @@ main {
   border-radius: 10px;
   padding: 15px;
   margin: auto;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   min-width: 400px;
   max-width: 800px;
   margin-top: 5px;
@@ -61,13 +60,11 @@ main a {
 main a:hover {
   text-decoration: underline;
   color: #2FA866;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 header {
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2FA866), to(#1A5C37));
   background-image: linear-gradient(to bottom, #2FA866, #1A5C37);
   padding-top: 40px;
   min-height: 120px;
@@ -79,11 +76,8 @@ nav {
 
 .menu {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .menu li a {
@@ -100,9 +94,8 @@ nav {
   color: white;
   text-decoration: none;
   margin-left: 10px;
-  background-color: #85be85;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  background-color: rgb(133, 190, 133);
+  transition-duration: 1s;
 }
 
 .titulo1 {
@@ -153,9 +146,9 @@ aside {
 }
 
 aside > ul {
-  list-style-type: '\2714\0020\0020';
-  -webkit-columns: 2;
-          columns: 2;
+  list-style-type: "✔  ";
+  -moz-columns: 2;
+       columns: 2;
   list-style-position: inside;
 }
 
@@ -175,5 +168,4 @@ footer > a {
 
 footer a:hover {
   text-decoration: underline;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

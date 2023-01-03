@@ -2,17 +2,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   text-align: justify;
 }
 
 #titulo {
   margin-left: 7%;
-  color: #292727;
+  color: rgb(41, 39, 39);
 }
 
 #subtitulo {
-  color: #292727;
+  color: rgb(41, 39, 39);
   margin-left: 10%;
 }
 
@@ -27,18 +27,16 @@ fieldset {
 body {
   background-color: lightblue;
   font-size: 1em;
-  color: #292727;
+  color: rgb(41, 39, 39);
   margin-left: 36%;
   margin-top: 2%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 input, select, textarea, button {
   font-size: 1em;
   border-radius: 5px;
-  color: #292727;
+  color: rgb(41, 39, 39);
 }
 
 .grupo::before, .grupo::after {
@@ -56,7 +54,7 @@ input, select, textarea, button {
 .campo label {
   margin-bottom: 0.2em;
   display: block;
-  color: #292727;
+  color: rgb(41, 39, 39);
 }
 
 fieldset .grupo .campo {
@@ -65,12 +63,11 @@ fieldset .grupo .campo {
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+.campo input[type=text], .campo input[type=email], .campo select, .campo textarea {
   display: block;
   padding: 0.2em;
-  border: 1px solid #292727;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(41, 39, 39);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Elementos de classe "campo" de tag <select> e <option>*/
@@ -85,13 +82,12 @@ fieldset .grupo .campo {
 
 .button {
   font-size: 1.2em;
-  background-color: #292727;
+  background-color: rgb(41, 39, 39);
   color: white;
   border: 0;
   margin-bottom: 1em;
   padding: 0.2em 0.6em;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   position: absolute;
 }
 
@@ -101,5 +97,4 @@ fieldset .grupo .campo {
 
 .button, select {
   cursor: pointer;
-}
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

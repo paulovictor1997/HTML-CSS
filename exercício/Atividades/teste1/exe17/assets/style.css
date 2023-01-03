@@ -2,9 +2,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Spartan';
+  box-sizing: border-box;
+  font-family: "Spartan";
 }
 
 #container {
@@ -16,206 +15,137 @@
 }
 
 .area-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   padding: 30px;
   width: 100%;
 }
-
 .area-1 .text-area {
   width: 500px;
   padding: 10px;
 }
-
 .area-1 .text-area .title {
-  color: #502050;
+  color: hsl(300deg, 43%, 22%);
   font-weight: 600;
   font-size: 45px;
 }
-
 .area-1 .text-area .description {
-  color: #937b92;
+  color: hsl(303deg, 10%, 53%);
   margin-top: 15px;
 }
 
 .content-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .content-area .stars {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
   padding: 10px;
 }
-
 .content-area .stars #img-1 {
-  background-color: #f7f2f7;
+  background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-right: 25px;
 }
-
 .content-area .stars #img-2 {
-  background-color: #f7f2f7;
+  background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-left: 10px;
 }
-
 .content-area .stars #img-3 {
-  background-color: #f7f2f7;
+  background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-left: 25px;
 }
-
 .content-area .stars .star-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
-
 .content-area .stars .star-area .description-star {
   margin-left: 10px;
-  color: #502050;
+  color: hsl(300deg, 43%, 22%);
   font-weight: 500;
 }
 
 .area-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
 }
-
 .area-2 #depoimente-1 {
   margin-top: 15px;
 }
-
 .area-2 #depoimente-2 {
   margin-top: 30px;
 }
-
 .area-2 .testimonial-area {
   width: 350px;
   padding: 20px;
   border-radius: 10px;
-  background-color: #502050;
+  background-color: hsl(300deg, 43%, 22%);
 }
-
 .area-2 .testimonial-area .depoiment {
   color: white;
   margin-top: 10px;
 }
-
 .area-2 .testimonial-area .profile {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 5px;
 }
-
 .area-2 .testimonial-area .profile .picture {
   border-radius: 20px;
 }
-
 .area-2 .testimonial-area .profile .description-name {
   margin-left: 10px;
   color: white;
 }
-
 .area-2 .testimonial-area .profile .description-name .name {
-  color: #ee68a4;
+  color: hsl(333deg, 80%, 67%);
 }
 
 .attribution {
   width: 100%;
   text-align: center;
-  background-color: #937b92;
+  background-color: hsl(303deg, 10%, 53%);
   padding: 5px;
 }
-
 .attribution a {
   text-decoration: none;
   color: white;
 }
-
 .attribution a:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
   .area-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .area-1 .text-area {
     width: 400px;
   }
   .area-1 .content-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .area-1 .content-area .stars {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .area-1 .content-area .stars #img-1 {
     margin-left: 20px;
@@ -224,25 +154,12 @@
     margin-right: 20px;
   }
   .area-1 .content-area .stars .star-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .area-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

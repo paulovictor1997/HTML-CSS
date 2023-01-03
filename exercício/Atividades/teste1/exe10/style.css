@@ -1,33 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
-  font-family: 'Karla';
+  font-family: "Karla";
   margin: 0px;
   padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #98a6bd;
+  background-color: hsl(218deg, 22%, 67%);
 }
 
 .container {
   max-width: 800px;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .cabecalho {
   max-width: 700px;
-  background-color: #e5eff5;
+  background-color: hsl(204deg, 43%, 93%);
   padding: 10px;
   height: 150px;
   border-radius: 10px;
@@ -36,29 +30,29 @@ body {
 .conteudo {
   width: 350px;
   height: 200px;
-  background-color: #2ab2af;
+  background-color: hsl(179deg, 62%, 43%);
   border-radius: 10px;
   padding: 15px;
   font-size: 16px;
 }
 
 h1 {
-  color: #2ab2af;
+  color: hsl(179deg, 62%, 43%);
   margin-top: 10px;
 }
 
 .subtitulo {
-  color: #c0df34;
+  color: hsl(71deg, 73%, 54%);
   margin-top: 10px;
 }
 
 .descricao {
-  color: #98a6bd;
+  color: hsl(218deg, 22%, 67%);
   margin-top: 10px;
 }
 
 .descricao2 {
-  color: #e5eff5;
+  color: hsl(204deg, 43%, 93%);
   margin-top: 10px;
 }
 
@@ -71,13 +65,13 @@ h1 {
 }
 
 h3 {
-  color: #e5eff5;
+  color: hsl(204deg, 43%, 93%);
   margin-top: 10px;
 }
 
 li {
   list-style: none;
-  color: #e5eff5;
+  color: hsl(204deg, 43%, 93%);
 }
 
 .button {
@@ -85,30 +79,20 @@ li {
   text-align: center;
   width: 300px;
   height: 40px;
-  background-color: #c0df34;
+  background-color: hsl(71deg, 73%, 54%);
   cursor: pointer;
-  color: #e5eff5;
+  color: hsl(204deg, 43%, 93%);
 }
 
 @media screen and (max-width: 700px) {
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .cabecalho {
     max-width: 350px;
     height: 200px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -2,44 +2,30 @@
 * {
   padding: 0px;
   margin: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #090b1a;
+  background-color: hsl(233deg, 47%, 7%);
 }
 
 .container {
   padding: 90px 165px;
   min-height: 100vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .conteudo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   max-width: 500px;
   height: 400px;
-  background-color: #1b1938;
+  background-color: hsl(244deg, 38%, 16%);
   border-radius: 10px;
 }
 
@@ -48,8 +34,7 @@ body {
   height: 400px;
   background-image: url(imagens/image-header-desktop.jpg);
   border-radius: 0px 5px 5px 5px;
-  -webkit-filter: brightness(50%) sepia(50) saturate(10) hue-rotate(245deg);
-          filter: brightness(50%) sepia(50) saturate(10) hue-rotate(245deg);
+  filter: brightness(50%) sepia(50) saturate(10) hue-rotate(245deg);
 }
 
 .titulo {
@@ -62,11 +47,11 @@ body {
 }
 
 .titulo > strong {
-  color: #aa5cdb;
+  color: hsl(277deg, 64%, 61%);
 }
 
 .descricao {
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   padding: 10px;
   margin-top: 20px;
   font-size: 15px;
@@ -75,13 +60,8 @@ body {
 }
 
 .options {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding: 10px;
 }
 
@@ -92,24 +72,15 @@ body {
 }
 
 .card > p {
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
 }
 
 @media screen and (max-width: 900px) {
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
   .foto {
     width: 500px;
@@ -120,13 +91,7 @@ body {
     height: 600px;
   }
   .options {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

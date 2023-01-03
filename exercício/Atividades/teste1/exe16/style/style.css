@@ -2,9 +2,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Red Hat Display';
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
 }
 
 body {
@@ -16,19 +15,10 @@ body {
 #container {
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 header img {
@@ -38,7 +28,7 @@ header img {
 .area {
   width: 450px;
   height: 400px;
-  background-color: #f5f7ff;
+  background-color: hsl(225deg, 100%, 98%);
   padding: 20px;
 }
 
@@ -49,75 +39,50 @@ h1 {
 
 .description {
   text-align: center;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   margin-top: 20px;
   font-size: 1.2rem;
 }
 
 .plan {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 10px;
   margin-top: 20px;
 }
-
 .plan .price {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-left: 10px;
 }
-
 .plan a {
   margin-left: 20%;
   padding-top: 10px;
 }
-
 .plan a:hover {
-  color: #3829e0;
+  color: hsl(245deg, 75%, 52%);
 }
 
 .buttonArea {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
 }
-
 .buttonArea button {
   width: 400px;
   padding: 10px;
   border-radius: 10px;
   color: white;
-  background-color: #1f2f56;
+  background-color: hsl(223deg, 47%, 23%);
   cursor: pointer;
 }
-
 .buttonArea button:hover {
-  background-color: #3829e0;
+  background-color: hsl(245deg, 75%, 52%);
 }
-
 .buttonArea a {
   padding-top: 10px;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   text-decoration: none;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
