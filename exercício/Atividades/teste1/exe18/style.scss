@@ -7,5 +7,37 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-$text1:hsl(237, 12%, 33%);
-$text2:hsl(240, 73%, 65%);
+$title:hsl(237, 12%, 33%);
+$hover-color:hsl(240, 73%, 65%);
+$area: white ;
+
+body{
+    background-image: linear-gradient(to top, hsl(240, 73%, 65%),hsl(273, 75%, 66%));
+}
+
+
+#container{
+    width: 100%;
+    height: 100vh;
+    padding: 65px;
+}
+
+.area{
+    width: 1200px;
+    height: 600px;
+    background-color: $area;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+
+    article{
+        h2{
+            margin-bottom: 50px;
+            font-weight: 900;
+        }
+        
+    }
+}
