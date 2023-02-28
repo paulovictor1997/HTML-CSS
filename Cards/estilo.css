@@ -45,14 +45,14 @@ body {
   margin-left: 20px;
   text-align: center;
   background-color: white;
-  color: hsl(184deg, 100%, 22%);
+  color: hsl(184, 100%, 22%);
   border-radius: 20px;
   padding: 5px;
   margin-top: 80px;
 }
 
 .button2:hover {
-  background-color: hsl(184deg, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
   color: white;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 #fundo-verde {
-  background-color: hsl(184deg, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
   color: white;
   border-radius: 10px;
   padding: 10px;

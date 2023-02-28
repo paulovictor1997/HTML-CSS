@@ -28,7 +28,7 @@ header img {
 .area {
   width: 450px;
   height: 400px;
-  background-color: hsl(225deg, 100%, 98%);
+  background-color: hsl(225, 100%, 98%);
   padding: 20px;
 }
 
@@ -39,7 +39,7 @@ h1 {
 
 .description {
   text-align: center;
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   margin-top: 20px;
   font-size: 1.2rem;
 }
@@ -60,7 +60,7 @@ h1 {
   padding-top: 10px;
 }
 .plan a:hover {
-  color: hsl(245deg, 75%, 52%);
+  color: hsl(245, 75%, 52%);
 }
 
 .buttonArea {
@@ -75,14 +75,14 @@ h1 {
   padding: 10px;
   border-radius: 10px;
   color: white;
-  background-color: hsl(223deg, 47%, 23%);
+  background-color: hsl(223, 47%, 23%);
   cursor: pointer;
 }
 .buttonArea button:hover {
-  background-color: hsl(245deg, 75%, 52%);
+  background-color: hsl(245, 75%, 52%);
 }
 .buttonArea a {
   padding-top: 10px;
-  color: hsl(224deg, 23%, 55%);
+  color: hsl(224, 23%, 55%);
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

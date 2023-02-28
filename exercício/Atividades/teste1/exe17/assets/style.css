@@ -25,12 +25,12 @@
   padding: 10px;
 }
 .area-1 .text-area .title {
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   font-weight: 600;
   font-size: 45px;
 }
 .area-1 .text-area .description {
-  color: hsl(303deg, 10%, 53%);
+  color: hsl(303, 10%, 53%);
   margin-top: 15px;
 }
 
@@ -46,19 +46,19 @@
   padding: 10px;
 }
 .content-area .stars #img-1 {
-  background-color: hsl(300deg, 24%, 96%);
+  background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-right: 25px;
 }
 .content-area .stars #img-2 {
-  background-color: hsl(300deg, 24%, 96%);
+  background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-left: 10px;
 }
 .content-area .stars #img-3 {
-  background-color: hsl(300deg, 24%, 96%);
+  background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
   padding: 15px;
   margin-left: 25px;
@@ -71,7 +71,7 @@
 }
 .content-area .stars .star-area .description-star {
   margin-left: 10px;
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   font-weight: 500;
 }
 
@@ -92,7 +92,7 @@
   width: 350px;
   padding: 20px;
   border-radius: 10px;
-  background-color: hsl(300deg, 43%, 22%);
+  background-color: hsl(300, 43%, 22%);
 }
 .area-2 .testimonial-area .depoiment {
   color: white;
@@ -111,13 +111,13 @@
   color: white;
 }
 .area-2 .testimonial-area .profile .description-name .name {
-  color: hsl(333deg, 80%, 67%);
+  color: hsl(333, 80%, 67%);
 }
 
 .attribution {
   width: 100%;
   text-align: center;
-  background-color: hsl(303deg, 10%, 53%);
+  background-color: hsl(303, 10%, 53%);
   padding: 5px;
 }
 .attribution a {

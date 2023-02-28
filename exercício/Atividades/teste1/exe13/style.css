@@ -79,15 +79,13 @@ header ul a:hover {
   top: 50%;
   left: 52%;
   transform: translate(-50%, -50%);
-  -webkit-animation: move 2s infinite alternate ease-in-out;
-          animation: move 2s infinite alternate ease-in-out;
+  animation: move 2s infinite alternate ease-in-out;
   border-radius: 5px;
 }
 .content .social-media {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: 100%;
@@ -135,12 +133,6 @@ header ul a:hover {
 }
 .pre-order svg {
   margin-right: 15px;
-}
-
-@-webkit-keyframes move {
-  from {
-    transform: translate(-50%, -55%);
-  }
 }
 
 @keyframes move {
