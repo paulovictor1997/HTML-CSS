@@ -88,3 +88,81 @@ header{
         margin-top: 5px;
     }
 }
+
+.area-1{
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .content-1{
+      max-width: 655px;  
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+
+      h2{
+        font-weight: bold;
+      }
+
+      .paragraph-1{
+        line-height: 1.5rem;
+        margin-top: 3vh;
+      }
+    }
+
+    .computer-area{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .img-computer{
+            margin-left: -20%;
+        }
+
+        .info-area{
+            max-width:500px;
+
+            .info{
+                margin-top: 10vh;
+                width:400px;
+                
+                h3{
+                    font-weight: 600;
+                }
+
+                .paragraph-2{
+                    line-height: 1.5rem;
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
+
+}
+
+.area-2{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .content-2{
+        max-width: 655px;  
+        text-align: center;
+        padding: 20px;
+
+        .paragraph-3{
+            line-height: 1.5rem;
+            margin-top: 3vh ;
+        }
+    }
+
+    .img-area-2{
+        margin-top: 5vh;
+    }
+}
