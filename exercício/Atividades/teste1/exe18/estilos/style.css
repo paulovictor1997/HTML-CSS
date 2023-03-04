@@ -15,7 +15,7 @@ body {
 }
 
 .description-color {
-  color: hsl(201, 11%, 66%);
+  color: hsl(208, 17%, 85%);
 }
 
 .button-1 {
@@ -141,4 +141,121 @@ header .button-area {
 }
 .area-2 .img-area-2 {
   margin-top: 5vh;
+}
+
+.area-3 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.area-3 .content-3 {
+  text-align: center;
+  width: 100%;
+}
+.area-3 .content-3 .title-2 {
+  font-weight: 600;
+}
+.area-3 .content-3 .paragraph-4 {
+  margin-top: 3vh;
+}
+.area-3 .info-content {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.area-3 .info-content .info2 {
+  max-width: 360px;
+  padding: 20px;
+  text-align: center;
+}
+.area-3 .info-content .info2 .titleInfo {
+  font-weight: 600;
+  margin-top: 3vh;
+}
+.area-3 .info-content .info2 .paragraphInfo {
+  line-height: 1.5rem;
+  margin-top: 3vh;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.area-4 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+.area-4 .content-4 {
+  width: 550px;
+  padding: 15px;
+  text-align: center;
+}
+.area-4 .content-4 .titleContent4 {
+  font-weight: 600;
+}
+.area-4 .content-4 .paragraphContent4 {
+  margin-top: 3vh;
+}
+.area-4 .button-area2 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+footer {
+  width: 100%;
+  background-color: hsl(0, 0%, 98%);
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+footer img {
+  width: 70px;
+}
+footer .footer-content {
+  width: 150px;
+  padding: 10px;
+}
+footer .footer-content .list-footer {
+  list-style: none;
+  line-height: 1.5rem;
+}
+footer .footer-content .list-footer a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+footer .footer-content .list-footer a:hover {
+  color: hsl(171, 66%, 44%);
+}
+footer .social-media {
+  width: 150px;
+  margin-top: 2vh;
+}
+footer .social-media .links-media {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+footer .social-media .links-media a {
+  text-decoration: none;
+  color: black;
+}
+footer .social-media .links-media a:hover {
+  color: hsl(171, 66%, 44%);
 }/*# sourceMappingURL=style.css.map */

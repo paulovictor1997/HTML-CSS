@@ -11,9 +11,10 @@ $button1: hsl(171, 66%, 44%);
 $button2: hsl(233, 100%, 69%);
 $titles:hsl(210, 10%, 33%);
 $white:white;
-$footer:hsl(201, 11%, 66%);
-$fontColor:hsl(201, 11%, 66%);
+$footer:hsl(0, 0%, 98%);
+$fontColor:hsl(208, 17%, 85%);
 $hover:hsl(202, 55%, 87%);
+$hoverLinks:hsl(171, 66%, 44%);
 
 body{
     min-height: 100vh;
@@ -164,5 +165,141 @@ header{
 
     .img-area-2{
         margin-top: 5vh;
+    }
+}
+
+.area-3{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content-3{
+        text-align: center;
+        width: 100%;
+        
+        .title-2{
+            font-weight: 600;
+        }
+
+        .paragraph-4{
+            margin-top: 3vh ;
+        }
+    }
+
+    .info-content{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10vh;
+
+        .info2{
+            max-width:360px;
+            padding: 20px;
+            text-align: center;
+
+            .titleInfo{
+                font-weight: 600;
+                margin-top: 3vh ;
+            }
+
+            .paragraphInfo{
+                line-height: 1.5rem;
+                margin-top: 3vh;
+            }
+        }
+    }
+}
+
+aside{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.area-4{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+
+    .content-4{
+        width: 550px;
+        padding:15px;
+        text-align: center;
+
+        .titleContent4{
+            font-weight: 600;
+        }
+
+        .paragraphContent4{
+            margin-top: 3vh;
+        }
+    }
+
+    .button-area2{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 5px;
+    }
+}
+
+footer{
+    width: 100%;
+    background-color: $footer;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+
+    img{
+        width: 70px;
+    }
+
+    .footer-content{
+        width: 150px;
+        padding: 10px;
+        
+        .list-footer{
+            list-style: none;
+            line-height: 1.5rem;
+
+            a{
+                text-decoration: none;
+                color: $titles;
+
+                &:hover{
+                    color: hsl(171, 66%, 44%);
+                }
+            }
+        }
+    }
+
+    .social-media{
+        width: 150px;
+        margin-top: 2vh;
+        .links-media{
+            display: flex;
+            gap: 10px;
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: black;
+
+                &:hover{
+                    color: hsl(171, 66%, 44%);
+                }
+            }
+        }
     }
 }
