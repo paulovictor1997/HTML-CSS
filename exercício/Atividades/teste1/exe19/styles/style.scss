@@ -249,7 +249,18 @@ footer{
         padding: 25px;
         display: flex;
         flex-direction: column;
+        align-items: center;
         background-image: url(../images/bg-hero-mobile.svg);
+
+        .headerContent{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            
+            .btnHeader{
+                margin-top: 5vh;
+            }
+        }
         
         .mainHeader{
             width: 100%;
