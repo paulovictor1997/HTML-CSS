@@ -10,4 +10,106 @@
 body {
   min-height: 100vh;
   background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 650px;
+  margin: auto;
+  display: flex;
+  margin-top: 11rem;
+  margin-bottom: 10%;
+  border-radius: 15px;
+}
+.container .img-content {
+  background-image: url(../images/image-product-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+  background-repeat: no-repeat;
+}
+.container .info {
+  padding: 2rem;
+  gap: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .info h2 {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+.container .info .title-area {
+  width: 210px;
+}
+.container .info .title-area h1 {
+  font-family: "Fraunces";
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+.container .info .description-perf {
+  width: 280px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.container .info .pricing {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+.container .info .pricing .prize {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .info .pricing .prize p {
+  color: hsl(158, 36%, 37%);
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+.container .info .pricing .prize span {
+  color: hsl(228, 12%, 48%);
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+.container .info .pricing button {
+  margin-top: 3vh;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.container .info .pricing button:hover {
+  background-color: hsl(212, 21%, 14%);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 690px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .container .img-content {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    border-radius: 15px 0 0 15px;
+    background-repeat: no-repeat;
+  }
+  .container .info {
+    width: 100%;
+  }
+  .container .info .title-area {
+    width: 310px;
+  }
+  .container .info .description-perf {
+    width: 310px;
+  }
 }/*# sourceMappingURL=style.css.map */

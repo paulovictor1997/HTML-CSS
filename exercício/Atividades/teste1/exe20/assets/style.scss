@@ -14,12 +14,129 @@ $body-color: hsl(30, 38%, 92%);
 $font-prize: hsl(158, 36%, 37%);
 $button: hsl(158, 36%, 37%);
 $title: hsl(212, 21%, 14%);
-$description: hsl(228, 12%, 48%);
+$font1: hsl(228, 12%, 48%);
+$hover: hsl(212, 21%, 14%);
 $font-button:hsl(0, 0%, 100%);
+$white:hsl(0, 0%, 100%);
 
 $font-title:'Fraunces';
 
 body{
     min-height: 100vh;
     background-color: $body-color;
+}
+
+.container{
+    background-color: $white;
+    width:650px;
+    margin: auto;
+    display: flex;
+    margin-top: 11rem;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    
+    .img-content{
+        background-image: url(../images/image-product-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        border-radius: 15px 0 0 15px;
+        background-repeat: no-repeat;
+    }
+
+    .info{
+        padding: 2rem;
+        gap: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2{
+            color: $font1;
+            font-weight: 500;
+        }
+
+        .title-area{
+            width: 210px;
+            h1{
+                font-family: $font-title;
+                font-weight: 700;
+                color: $title;
+            }
+        }
+
+        .description-perf{
+            width: 280px;
+            color: $font1;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+
+        .pricing{
+            margin-top: 3vh;
+            display: flex;
+            flex-direction: column;
+            .prize{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                p{
+                    color: $font-prize;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                }
+
+                span{
+                    color: $font1;
+                    font-size: 0.8rem;
+                    text-decoration: line-through;
+                }
+            }
+
+            button{
+                margin-top: 3vh;
+                width: 300px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: $button;
+                color: $font-button;
+                cursor: pointer;
+                &:hover{
+                    background-color: $hover;
+                    transition: 0.5s;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:690px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+
+        .img-content{
+            background-image: url(../images/image-product-mobile.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 70vh;
+            border-radius: 15px 0 0 15px;
+            background-repeat: no-repeat;
+        }
+
+        .info{
+            width: 100%;
+
+            .title-area{
+                width: 310px;
+            }
+
+            .description-perf{
+                width: 310px;
+            }
+        }
+    }
 }
