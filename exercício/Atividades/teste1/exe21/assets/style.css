@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk";
+}
+
+/*
+ card
+ hsl(252, 100%, 67%)
+ hsl(241, 81%, 54%)
+
+circle
+hsla(256, 72%, 46%, 1)
+hsla(241, 72%, 46%, 0)
+*/
+body {
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
