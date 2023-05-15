@@ -150,3 +150,27 @@ body{
         }
     }
 }
+
+@media screen and (min-width:800px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 30vh;
+    }
+
+    .card-1{
+        width: 280px;
+        border-radius: 15px;
+        height: 400px;
+
+        .info{
+            text-align: center;
+            color: $font;
+            margin-top: 5vh;
+        }
+    }
+
+    
+}

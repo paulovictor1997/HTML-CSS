@@ -121,4 +121,24 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30vh;
+  }
+  .card-1 {
+    width: 280px;
+    border-radius: 15px;
+    height: 400px;
+  }
+  .card-1 .info {
+    text-align: center;
+    color: hsl(221, 100%, 96%);
+    margin-top: 5vh;
+  }
 }/*# sourceMappingURL=style.css.map */
