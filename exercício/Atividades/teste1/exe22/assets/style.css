@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header {
+  padding: 25px;
+}
+
+.container {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container .description {
+  padding: 10px;
+  width: 325px;
+  margin-top: 5vh;
+  text-align: center;
+}
+.container .description h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 700;
+}
+.container .description p {
+  margin-top: 3vh;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+.container .description button {
+  margin-top: 3vh;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  cursor: pointer;
+}
+.container .description button:hover {
+  transition: 0.5s all;
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 100%);
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  width: 20px;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid white;
+  color: white;
+}
+footer a:hover {
+  transition: 0.5s all;
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .container .img img {
+    width: 600px;
+  }
+  .container .description {
+    width: 500px;
+    text-align: start;
+  }
+  .container .description h1 {
+    font-size: 40px;
+  }
+  footer {
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+  }
+}/*# sourceMappingURL=style.css.map */
